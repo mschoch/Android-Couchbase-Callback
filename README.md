@@ -23,7 +23,7 @@ This application provides the fastest way to deploy a <a href="http://couchapp.o
 
 6.  Forward the Couchbase Mobile from the device to your development machine (the Couchbase port is dynamic and is shown on the screen)
 
-    adb forward tcp:8984 tcp:<value displayed on your screen>
+    adb forward tcp:8984 tcp:&gt;value displayed on your screen&lt;
 
 7.  From within your CouchApp project directory, run the following command to install your couchapp on the device.
 
